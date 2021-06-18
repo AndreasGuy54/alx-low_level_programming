@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print a-z and A-z using putchar
+* main - print a-z without q and e
 * Return: 0 to exit
 */
 
