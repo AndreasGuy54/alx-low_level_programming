@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print a-z without q and e
+* main - print a-z without the letters q and e
 * Return: 0 to exit
 */
 
