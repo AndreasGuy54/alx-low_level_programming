@@ -11,11 +11,11 @@ int main(void)
 
 	while (letter <= 'z') /*checks a-z*/
 	{
-		if((letter != 'q') && (letter != 'e')) /*removes q and e*/
+		if ((letter != 'q') && (letter != 'e')) /*removes q and e*/
 		{
 			putchar(letter);
-			letter++;
 		}
+		letter++;
 	}
 	putchar('\n');
 
