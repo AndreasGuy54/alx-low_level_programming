@@ -7,19 +7,15 @@
 
 int main(void)
 {
-	char lower = 'a';
-	char upper = 'A';
+	char letter = 'a';
 
-	while (lower <= 'z') /*prints a-z*/
+	while (letter <= 'z') /*checks a-z*/
 	{
-		putchar(lower);
-		lower++;
-	}
-
-	while (upper <= 'Z') /*prints A-Z*/
-	{
-		putchar(upper);
-		upper++;
+		if((letter != 'q') && (letter != 'e')) /*removes q and e*/
+		{
+			putchar(letter);
+			letter++;
+		}
 	}
 	putchar('\n');
 
