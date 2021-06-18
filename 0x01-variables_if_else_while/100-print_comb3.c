@@ -8,11 +8,11 @@
 int main(void)
 {
 	int tens = '0';
-	int ones = tens + 1;
+	int ones = ++tens;
 
 	while (tens <= '9') /*increases tens until 9*/
 	{
-		while(ones <= '9') /*increases ones until 9*/
+		while (ones <= '9') /*increases ones until 9*/
 		{
 			putchar(tens);
 			putchar(ones);
