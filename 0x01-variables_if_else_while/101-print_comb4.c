@@ -11,7 +11,7 @@ int main(void)
 	int tens;
 	int hundredths;
 
-	for (hundredths = '0'; hundredths <= '9'; hundredths++) /*increase hundredths*/
+	for (hundredths = '0'; hundredths <= '9'; hundredths++) /*hundredths*/
 	{
 		for (tens = (hundredths + 1); tens <= '9'; tens++) /*increase tens=*/
 		{
