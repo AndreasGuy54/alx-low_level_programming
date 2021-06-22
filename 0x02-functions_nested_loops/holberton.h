@@ -79,4 +79,10 @@ int add(int a, int b);
 */
 void print_to_98(int n);
 
+/**
+* print_times_table - print multiplication table up to n starting with 0
+* @n: integer arg
+*/
+void print_times_table(int n);
+
 #endif
